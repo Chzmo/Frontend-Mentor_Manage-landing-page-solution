@@ -1,0 +1,142 @@
+
+// **************** FOOTER SECTION *********************//
+
+#footer{
+    background: var(--Very-Dark-Blue);
+    .container{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        
+        .logo-social{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .logo{
+                color: var(--Very-Light-Gray) !important;
+            }
+    
+            .social{
+                ul{
+                    display: flex;
+                    gap: .8rem;
+                }
+            }
+        }
+
+        nav{
+            display: flex;
+            gap: 3rem;
+            .nav-left, .nav-right{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5rem;
+                    
+                    li a{
+                        color: var(--Very-Light-Gray);
+                    }
+                }
+            }
+        }
+
+        .contact{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .input-form form input{
+                border: none;
+                color: var(--Dark-Grayish-Blue)
+            }
+
+            .input-form form input:focus{
+                border: none;
+                color: var(--Bright-Red);
+            }
+
+            .copyright{
+                font-size: 11px;
+                align-self: flex-end;
+            }       
+        }
+    }
+}
+
+// **************** END FOOTER SECTION *********************//
+
+@media screen and (max-width:650px) {
+    #footer{
+        background: var(--Very-Dark-Blue);
+        .container{
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            
+            .logo-social{
+                display: flex;
+                padding-top: 2rem;
+                flex-direction: column-reverse;
+                justify-content: space-between;
+                gap: 2rem;
+                .logo{
+                    color: var(--Very-Light-Gray) !important;
+                    align-self: center;
+                }
+        
+                .social{
+                    align-self: center;
+                    ul{
+                        display: flex;
+                        gap: .8rem;
+                    }
+                }
+            }
+    
+            nav{
+                display: flex;
+                justify-content: space-between;
+                padding: 2rem;
+                .nav-left, .nav-right{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        gap: .5rem;
+                        
+                        li a{
+                            color: var(--Very-Light-Gray);
+                        }
+                    }
+                }
+            }
+    
+            .contact{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
+                .input-form form input{
+                    border: none;
+                    color: var(--Dark-Grayish-Blue)
+                }
+    
+                .input-form form input:focus{
+                    border: none;
+                    color: var(--Bright-Red);
+
+                }  
+                
+                .copyright{
+                    font-size: 11px;
+                    left: 2rem;
+                    bottom: 2rem;
+                    background: red;
+                }    
+            }
+        }
+    }
+
+}

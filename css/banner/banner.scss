@@ -1,0 +1,49 @@
+// **************** BANNER SECTION *********************//
+
+#banner{
+    background: var(--Bright-Red);
+    padding: 3rem 0;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+
+        .banner{
+            max-width: 300px;
+            
+            h2{
+                color: var(--Very-Light-Gray);
+            }
+        }
+    }
+}
+
+// **************** END BANNER SECTION *********************//
+
+@media screen and (max-width:600px) {
+    #banner{
+        background: var(--Bright-Red);
+        padding: 3rem 0;
+    
+        .container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 2rem;
+    
+            .banner{
+                max-width: 100%;
+                
+                h2{
+                    color: var(--Very-Light-Gray);
+                }
+
+                .CTA{
+                    display: block;
+                    width: 1000px;
+                }
+            }
+        }
+    }
+
+}

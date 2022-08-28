@@ -1,0 +1,37 @@
+#banner {
+  background: var(--Bright-Red);
+  padding: 3rem 0;
+}
+#banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+#banner .container .banner {
+  max-width: 300px;
+}
+#banner .container .banner h2 {
+  color: var(--Very-Light-Gray);
+}
+
+@media screen and (max-width: 600px) {
+  #banner {
+    background: var(--Bright-Red);
+    padding: 3rem 0;
+  }
+  #banner .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+  #banner .container .banner {
+    max-width: 100%;
+  }
+  #banner .container .banner h2 {
+    color: var(--Very-Light-Gray);
+  }
+  #banner .container .banner .CTA {
+    display: block;
+    width: 1000px;
+  }
+}/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+:root {
+  --Bright-Red: hsl(12, 88%, 59%);
+  --Dark-Blue: hsl(228, 39%, 23%);
+  --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+  --Very-Dark-Blue: hsl(233, 12%, 13%);
+  --Very-Pale-Red: hsl(13, 100%, 96%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --lg: 897 ;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Be Vietnam Pro";
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+a:hover {
+  color: var(--Dark-Grayish-Blue);
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  color: var(--Dark-Grayish-Blue);
+}
+
+h1, h2, h3, h4, a {
+  color: var(--Dark-Blue);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 974px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+a.btn:hover, button.btn:hover {
+  box-shadow: 0 1px 5px var(--Bright-Red);
+  color: var(--Very-Light-Gray);
+}
+
+.btn {
+  padding: 7px 18px;
+  border-radius: 22px;
+  font-size: 12px;
+  border: 1px transparent solid;
+  font-weight: 500;
+  transition: 500ms ease;
+}
+
+.btn-primary {
+  color: var(--Very-Light-Gray);
+  background: var(--Bright-Red);
+}
+
+.btn-primary-outline {
+  color: var(--Bright-Red);
+  background: var(--Very-Light-Gray);
+  font-weight: 500;
+}
+
+footer a:hover, footer img {
+  color: var(--Bright-Red) !important;
+}
+footer input.btn:focus {
+  outline: none;
+  color: var(--Bright-Red);
+}
+
+@media screen and (max-width: 900px) {
+  a {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 550px !important;
+    padding: 2rem 2rem;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+.test {
+  display: none;
+  margin: 3rem 3rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: rgb(212, 7, 7);
+  color: white;
+  padding: 0.8rem 1.4rem 0.8rem 6.8rem;
+  border-radius: 0 0 5rem;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 2.6rem;
+}
+.test span {
+  position: absolute;
+  left: -1rem;
+  top: -1.2rem;
+  background: rgb(212, 7, 7);
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 10px solid rgb(163, 7, 7);
+  font-size: 3rem;
+  box-shadow: -2px 2px 2px rgb(182, 141, 141);
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}/*# sourceMappingURL=main.css.map */
