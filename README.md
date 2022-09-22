@@ -16,8 +16,6 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -31,22 +29,14 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
-### Screenshot
+### Desktop Preview
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./desktop-preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://effulgent-bavarois-cef0f1.netlify.app/)
+- Solution URL: [https://github.com/Chzmo/Frontend-Mentor_Manage-landing-page-solution](https://github.com/Chzmo/Frontend-Mentor_Manage-landing-page-solution)
+- Live Site URL: [https://effulgent-bavarois-cef0f1.netlify.app/](https://effulgent-bavarois-cef0f1.netlify.app/)
 
 ## My process
 
@@ -56,51 +46,50 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - Desktop-first workflow
-- [Swiper.js](swiperjs.com)
-- [SASS](https://sass-lang.com/guide)
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Sass](https://sass-lang.com/) - CSS Extension
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Swiper Js Comes handy when dealing with carousel and adding navigation to the links
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+            // And if we need scrollbar
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+          });
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+In would like to focus more on Flexbox so that i can reduce code in javaScrip media queries for responsive layout and working on Mobile-First workflow
 
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 2](https://sass-lang.com) - This is an amazing article which helped me finally understand . I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Website - [Chisomo Zaliro Moyo](https://www.chzmo.com)
-- Frontend Mentor - [@Chzmo](https://www.frontendmentor.io/profile/Chzmo)
+- Frontend Mentor - [@chzmo](https://www.frontendmentor.io/profile/chzmo)
 
 ## Acknowledgments
+
+Many thanks to Brad, who owns [Traversy Media](https://www.youtube.com/c/TraversyMedia) where i got inspiration the to code this in pure CSS from in his solution in Tailwind.
