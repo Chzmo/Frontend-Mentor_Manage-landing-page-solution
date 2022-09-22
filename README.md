@@ -47,6 +47,7 @@ Users should be able to:
 - Flexbox
 - Desktop-first workflow
 - [Sass](https://sass-lang.com/) - CSS Extension
+- [SwiperJs](https://swiperjs.com/) - Working with Slider
 
 ### What I learned
 
