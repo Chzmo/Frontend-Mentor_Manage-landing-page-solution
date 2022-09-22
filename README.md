@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Desktop Preview
 
-![](./desktop-preview.jpg)
+![](./design/desktop-preview.jpg)
 
 ### Links
 
