@@ -81,9 +81,6 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     left: -1.5rem;
   }
   #about .container .about-right .about-item span {
