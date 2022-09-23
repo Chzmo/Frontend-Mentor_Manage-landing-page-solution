@@ -93,7 +93,7 @@
                     h3{
                         position: relative !important;
                         background-color: var(--Very-Pale-Red);
-                        padding: 5px 7px 5px 10px;
+                        padding: 5px 0 5px 20px;
                         border-radius: 24px 0 0 24px;
                         margin-left: 10px;
                         font-size: 17px;
@@ -102,7 +102,7 @@
                             position: absolute;
                             top: 0;
                             bottom: 0;
-                            left: -1.5rem;
+                            left: -1rem;
                             // margin-left: -48px;
                         }
                     }
