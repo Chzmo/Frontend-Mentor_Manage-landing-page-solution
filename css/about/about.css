@@ -21,7 +21,6 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  height: 200px;
 }
 #about .container .about-right .about-item h3 {
   position: relative;
@@ -73,21 +72,22 @@
   #about .container .about-right .about-item h3 {
     position: relative !important;
     background-color: var(--Very-Pale-Red);
-    padding: 5px 5px 5px 10px;
-    border-radius: 20px 0 0 20px;
+    padding: 5px 7px 5px 10px;
+    border-radius: 24px 0 0 24px;
     margin-left: 10px;
+    font-size: 17px;
   }
   #about .container .about-right .about-item h3 span {
-    /* margin-left: -48px; */
-    left: 0;
+    position: absolute;
     top: 0;
     bottom: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    left: -1.5rem;
   }
   #about .container .about-right .about-item span {
-    position: absolute;
-    /* font-weight: 400;
-    padding-right: 1rem; */
+    font-weight: 400;
   }
   #about .container .about-right .about-item p {
     max-width: 400px;
