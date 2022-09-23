@@ -73,7 +73,7 @@
   #about .container .about-right .about-item h3 {
     position: relative !important;
     background-color: var(--Very-Pale-Red);
-    padding: 5px 5px 5px 0;
+    padding: 5px 5px 5px 10px;
     border-radius: 20px 0 0 20px;
     margin-left: 10px;
   }
