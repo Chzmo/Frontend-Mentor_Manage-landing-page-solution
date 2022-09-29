@@ -79,7 +79,7 @@ const swiper = new Swiper('.swiper', {
 
 ### Continued development
 
-In would like to focus more on Flexbox so that i can reduce code in javaScrip media queries for responsive layout and working on Mobile-First workflow
+In would like to focus more on Flexbox so that i can reduce code in media queries for responsive layout and working on Mobile-First workflow
 
 ### Useful resources
 
