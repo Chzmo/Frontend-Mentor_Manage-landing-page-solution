@@ -2,17 +2,18 @@
 
 #banner{
     background: var(--Bright-Red);
-    padding: 3rem 0;
+    padding: 5rem 0;
 
     .container{
         display: flex;
         justify-content: space-between;
 
         .banner{
-            max-width: 300px;
+            max-width: 430px;
             
             h2{
                 color: var(--Very-Light-Gray);
+                font-size: 2rem;
             }
         }
     }

@@ -1,16 +1,17 @@
 #banner {
   background: var(--Bright-Red);
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 #banner .container {
   display: flex;
   justify-content: space-between;
 }
 #banner .container .banner {
-  max-width: 300px;
+  max-width: 430px;
 }
 #banner .container .banner h2 {
   color: var(--Very-Light-Gray);
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 600px) {
