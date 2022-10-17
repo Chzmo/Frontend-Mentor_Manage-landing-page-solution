@@ -44,10 +44,10 @@
             nav{
                 display: var(--none, none);
                 top: 7rem;
+                right: 1rem;
+                left: 1rem;
                 position: absolute;
                 background: white;
-                width: 95%;
-                margin: auto;
                 border-radius: 3px;
                 padding-top: 1rem;
                 padding-bottom: 1rem;
@@ -68,20 +68,19 @@
                 display: none;
             }
 
-            .close{
+            .open{
                 z-index: 999;
                 display: block;
                 cursor: pointer;
                 border: transparent;
-                background: url(./../../images/icon-close.svg);
+                background: url(./../../images/icon-hamburger.svg);
                 height: 1.4rem;
                 width: 1.4rem;
                 background-repeat: no-repeat;
                 background-size: cover;
-
             }
 
-            .open, .close{
+            .close{
                 z-index: 999;
                 display: block;
                 cursor: pointer;
