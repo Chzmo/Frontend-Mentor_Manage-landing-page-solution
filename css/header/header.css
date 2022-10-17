@@ -17,7 +17,7 @@
     position: relative;
   }
   .header .container::before {
-    display: none;
+    display: var(--none, none);
     content: "";
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
