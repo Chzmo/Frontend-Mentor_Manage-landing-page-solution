@@ -34,4 +34,7 @@
     display: block;
     width: 1000px;
   }
+  #banner .container .banner:hover {
+    color: red;
+  }
 }/*# sourceMappingURL=banner.css.map */

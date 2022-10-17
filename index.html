@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/header/header.css">
     <link rel="stylesheet" href="./css/hero/hero.css">
     <link rel="stylesheet" href="./css/about/about.css">
@@ -99,28 +102,35 @@
             </div>
         </div>
     </div>
-    <div id="testimonials">
+
+    <div id="testimonials" class="swiper mySwiper">
         <h2>What they’ve said</h2>
-        <div class="testimonials">
-            <div class="testimonial-item">
-                <img src="./images/avatar-richard.png" alt="" srcset="">
+        <div class="swiper-wrapper testimonials">
+            <div class="swiper-slide testimonial-item">
+                <img src="./images/avatar-richard.png" alt="richard" srcset="">
                 <h3>Richard Watts</h3>
                 <p>“Manage has supercharged our team’s workflow. The ability to maintain 
                     visibility on larger milestones at all times keeps everyone motivated.”
                 </p>
             </div>
-
-            <div class="testimonial-item">
-                <img src="./images/avatar-anisha.png" alt="" srcset="">
+            <div class="swiper-slide testimonial-item">
+                <img src="./images/avatar-anisha.png" alt="anisha" srcset="">
                 <h3>Anisha Li</h3>
                 <p> “We have been able to cancel so many other subscriptions since using 
                     Manage. There is no more cross-channel confusion and everyone is much 
                     more focused.”
                 </p>
             </div>
-
-            <div class="testimonial-item">
-                <img src="./images/avatar-shanai.png" alt="" srcset="">
+            <div class="swiper-slide testimonial-item">
+                <img src="./images/avatar-shanai.png" alt="shanai" srcset="">
+                <h3>Shanai Gough</h3>
+                <p>
+                    “Their software allows us to track, manage and collaborate on our projects 
+                    from anywhere. It keeps the whole team in-sync without being intrusive.”
+                </p>
+            </div>
+            <div class="swiper-slide testimonial-item">
+                <img src="./images/avatar-shanai.png" alt="shanai" srcset="">
                 <h3>Shanai Gough</h3>
                 <p>
                     “Their software allows us to track, manage and collaborate on our projects 
@@ -128,6 +138,7 @@
                 </p>
             </div>
         </div>
+        <div class="swiper-pagination"></div>
         <div class="CTA">
             <a href="#" class="btn btn-primary">Get Started</a>
         </div>
@@ -195,31 +206,98 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+        // const swiper = new Swiper('.swiper', {
+        //     // Optional parameters
+        //     direction: 'horizontal',
+        //     loop: true,
+          
+        //     // If we need pagination
+        //     pagination: {
+        //       el: '.swiper-pagination',
+        //     },
+          
+        //     // Navigation arrows
+        //     navigation: {
+        //       nextEl: '.swiper-button-next',
+        //       prevEl: '.swiper-button-prev',
+        //     },
+          
+        //     // And if we need scrollbar
+        //     scrollbar: {
+        //       el: '.swiper-scrollbar',
+        //     },
+        //   });
+
+        import Swiper from 'swiper/swiper-bundle.esm.js';
+        import 'swiper/swiper-bundle.css';
+        var swiper = new Swiper('.swiper', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        });
+    </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
     <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-          
-            // If we need pagination
-            pagination: {
-              el: '.swiper-pagination',
+    var widthQuery = window.matchMedia("(min-width: 600px)");
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints:{
+            0:{
+                slidesPerView: 1,
+                paceBetween: 5
             },
-          
-            // Navigation arrows
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
+            600:{
+                slidesPerView: 2,
+                spaceBetween: 5
             },
-          
-            // And if we need scrollbar
-            scrollbar: {
-              el: '.swiper-scrollbar',
+            1200:{
+                slidesPerView: 3,
+                spaceBetween: 30
             },
-          });
+        }
+    });
     </script>
 
+
+    <style>
+        .swiper {
+        width: 100%;
+        height: 100%;
+        }
+
+        .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        cursor: pointer;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        }
+    </style>
     
     <!-- <script src="./js/main.js"></script> -->
 

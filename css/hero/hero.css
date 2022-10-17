@@ -6,14 +6,14 @@
   padding-top: 3rem;
 }
 #products .container .hero {
-  max-width: 40%;
+  max-width: 45%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   padding-top: 3rem;
 }
 #products .container .hero p {
-  max-width: 300px;
+  max-width: 350px;
 }
 #products .container .stats {
   max-width: 500px;

@@ -1,9 +1,14 @@
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
 #testimonials {
   text-align: center;
   padding: 7rem 0 6rem;
   display: flex;
   gap: 4rem;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
 }
 #testimonials .testimonials {
@@ -15,7 +20,7 @@
   padding: 2.5rem 1rem;
   display: flex;
   position: relative;
-  gap: 1rem;
+  gap: 2rem;
   flex-direction: column;
   border-radius: 2px;
   font-size: 12px;
@@ -24,10 +29,16 @@
   width: 70px;
   position: absolute;
   top: -2.5rem;
-  left: 40%;
+  margin: 0 auto;
+}
+#testimonials .testimonials .testimonial-item h3 {
+  padding-top: 1rem;
 }
 #testimonials .testimonials .testimonial-item p {
   text-align: center;
+}
+#testimonials .CTA {
+  padding: 1.8rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -41,8 +52,6 @@
   }
   #testimonials .testimonials {
     display: flex;
-    flex-direction: column;
-    gap: 4rem;
   }
   #testimonials .testimonials .testimonial-item {
     background: var(--Very-Light-Gray);
