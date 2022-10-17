@@ -17,7 +17,7 @@
     position: relative;
   }
   .header .container::before {
-    display: var(--none, none);
+    display: var(--beforeContainer, none);
     content: "";
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -28,7 +28,7 @@
     z-index: 5;
   }
   .header .container nav {
-    display: none;
+    display: var(--none, none);
     top: 7rem;
     position: absolute;
     background: white;

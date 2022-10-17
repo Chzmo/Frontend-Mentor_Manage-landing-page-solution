@@ -100,39 +100,4 @@ footer input.btn:focus {
   p {
     font-size: 16px;
   }
-}
-.test {
-  display: none;
-  margin: 3rem 3rem;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  background: rgb(212, 7, 7);
-  color: white;
-  padding: 0.8rem 1.4rem 0.8rem 6.8rem;
-  border-radius: 0 0 5rem;
-  position: relative;
-  letter-spacing: 2px;
-  font-size: 2.6rem;
-}
-.test span {
-  position: absolute;
-  left: -1rem;
-  top: -1.2rem;
-  background: rgb(212, 7, 7);
-  height: 6rem;
-  width: 6rem;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  border: 10px solid rgb(163, 7, 7);
-  font-size: 3rem;
-  box-shadow: -2px 2px 2px rgb(182, 141, 141);
-}
-
-.swiper {
-  width: 600px;
-  height: 300px;
 }/*# sourceMappingURL=main.css.map */

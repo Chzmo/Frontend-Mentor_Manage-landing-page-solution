@@ -30,7 +30,7 @@
             position: relative;
 
             &::before{
-                display: var(--none, none);
+                display: var(--beforeContainer, none);
                 content: "";
                 background: rgb(0, 0, 0, .5);
                 position: fixed;
@@ -42,7 +42,7 @@
             }
 
             nav{
-                display: none;
+                display: var(--none, none);
                 top: 7rem;
                 position: absolute;
                 background: white;
@@ -62,14 +62,12 @@
                         align-self: center;
                     }
                 }
-
             }
 
             .CTA{
                 display: none;
             }
 
-            
             .close{
                 z-index: 999;
                 display: block;

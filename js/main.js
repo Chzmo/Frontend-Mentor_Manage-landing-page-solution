@@ -4,9 +4,22 @@ CloseButton.addEventListener('click', (e)=> {
     //
     e.preventDefault();
     let container = document.querySelector('.container')
-    let containerBefore = window.getComputedStyle(container, '::before');
+    let navbar = document.querySelector('.navbar');
+    //let containerBefore = window.getComputedStyle(container, '::before');
 
-    container.style.setProperty('--none', 'block');
+    container.style.setProperty('--beforeContainer', 'block');
+    navbar.style.display = 'block';
+    CloseButton.style.zIndex = '99999';
+    CloseButton.style.backgroundImage = 'url(./../images/icon-close.svg)';
+
+    container.addEventListener('click', (e)=>{
+        if(e.target.style[0] === '--beforeContainer'){
+            navbar.style.display = 'none';
+            container.style.setProperty('--beforeContainer', 'none');
+            CloseButton.style.backgroundImage = 'url(./../images/icon-hamburger.svg)';      
+        }
+    });
+    // container.style.setProperty('--none', 'block');
 });
 
 
