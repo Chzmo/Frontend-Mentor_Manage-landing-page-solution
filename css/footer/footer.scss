@@ -2,7 +2,9 @@
 // **************** FOOTER SECTION *********************//
 
 #footer{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: var(--Very-Dark-Blue);
     .container{
         padding-top: 2.5rem;
@@ -60,11 +62,10 @@
     }
 
     .copyright{
-        position: absolute;
+        align-self: flex-end;
         font-size: 11px;
         color: var(--Dark-Grayish-Blue);
-        right: 1rem;
-        bottom: 1rem;
+        margin: 0 1rem 1rem 0;
     } 
 }
 
@@ -137,11 +138,9 @@
     }
 
     .copyright{
-        position: absolute;
+        align-self: center !important;
         font-size: 11px;
         color: var(--Dark-Grayish-Blue);
-        left: 30%;
-        right: auto;
-        width: 13rem;
+        
     } 
 }

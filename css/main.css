@@ -6,6 +6,7 @@
   --Very-Dark-Blue: hsl(233, 12%, 13%);
   --Very-Pale-Red: hsl(13, 100%, 96%);
   --Very-Light-Gray: hsl(0, 0%, 98%);
+  --lg: 897 ;
 }
 
 * {
@@ -80,10 +81,6 @@ footer input.btn:focus {
   color: var(--Bright-Red);
 }
 
-.swiper-pagination{
-  display: none;
-}
-
 @media screen and (max-width: 900px) {
   a {
     font-size: 15px;
@@ -93,10 +90,6 @@ footer input.btn:focus {
   }
   p {
     font-size: 16px !important;
-  }
-
-  .swiper-pagination{
-    display: block;
   }
 }
 @media screen and (max-width: 600px) {
