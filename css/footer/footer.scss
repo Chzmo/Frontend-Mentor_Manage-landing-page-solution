@@ -2,6 +2,7 @@
 // **************** FOOTER SECTION *********************//
 
 #footer{
+    position: relative;
     background: var(--Very-Dark-Blue);
     .container{
         padding-top: 2.5rem;
@@ -54,14 +55,17 @@
             .input-form form input:focus{
                 border: none;
                 color: var(--Bright-Red);
-            }
-
-            .copyright{
-                font-size: 11px;
-                align-self: flex-end;
-            }       
+            }      
         }
     }
+
+    .copyright{
+        position: absolute;
+        font-size: 11px;
+        color: var(--Dark-Grayish-Blue);
+        right: 1rem;
+        bottom: 1rem;
+    } 
 }
 
 // **************** END FOOTER SECTION *********************//
@@ -127,16 +131,17 @@
                     border: none;
                     color: var(--Bright-Red);
 
-                }  
-                
-                .copyright{
-                    font-size: 11px;
-                    left: 2rem;
-                    bottom: 2rem;
-                    background: red;
                 }    
             }
         }
     }
 
+    .copyright{
+        position: absolute;
+        font-size: 11px;
+        color: var(--Dark-Grayish-Blue);
+        left: 30%;
+        right: auto;
+        width: 13rem;
+    } 
 }
