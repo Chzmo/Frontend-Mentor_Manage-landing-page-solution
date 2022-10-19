@@ -2,7 +2,11 @@
   background: var(--Bright-Red);
   padding: 5rem 0;
 }
+#banner img {
+  position: relative;
+}
 #banner .container {
+  position: absolute;
   display: flex;
   justify-content: space-between;
 }
@@ -12,6 +16,9 @@
 #banner .container .banner h2 {
   color: var(--Very-Light-Gray);
   font-size: 2rem;
+}
+#banner .container .CTA a:hover {
+  color: red;
 }
 
 @media screen and (max-width: 600px) {
@@ -36,6 +43,6 @@
     width: 1000px;
   }
   #banner .container .banner:hover {
-    color: red;
+    color: var(--Bright-Red);
   }
 }/*# sourceMappingURL=banner.css.map */

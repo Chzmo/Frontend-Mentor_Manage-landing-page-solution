@@ -1,10 +1,21 @@
 // **************** BANNER SECTION *********************//
 
+
+
 #banner{
+    img{
+        position: relative;
+    }
+    
     background: var(--Bright-Red);
     padding: 5rem 0;
 
     .container{
+        // background: url('../images/bg-simplify-section-desktop.svg');
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-color: transparent;
+        position: absolute;
         display: flex;
         justify-content: space-between;
 
@@ -14,6 +25,14 @@
             h2{
                 color: var(--Very-Light-Gray);
                 font-size: 2rem;
+            }
+        }
+
+        .CTA{
+            a{
+                &:hover{
+                    color: red;
+                }
             }
         }
     }
@@ -45,7 +64,7 @@
                 }
 
                 &:hover{
-                    color: red;
+                    color: var(--Bright-Red);
                 }
             }
         }

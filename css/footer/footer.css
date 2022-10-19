@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   background: var(--Very-Dark-Blue);
+  padding-right: 2rem;
 }
 #footer .container {
   width: 100%;
