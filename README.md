@@ -55,7 +55,6 @@ Swiper Js Comes handy when dealing with carousel and adding navigation to the li
 
 ```js
 <script>
-    var widthQuery = window.matchMedia("(min-width: 600px)");
     var swiper = new Swiper(".mySwiper", {
         
         pagination: {
