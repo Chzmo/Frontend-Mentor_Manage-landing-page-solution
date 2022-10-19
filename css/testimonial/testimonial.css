@@ -7,68 +7,54 @@
   text-align: center;
   padding: 7rem 0 6rem;
   display: flex;
+  flex-direction: column;
   gap: 4rem;
   width: 100%;
   justify-content: space-between;
-  flex-direction: column;
+  align-items: center;
 }
 #testimonials .testimonials {
   display: flex;
   gap: 1rem;
+  justify-content: space-between;
+  margin-left: -1rem;
 }
 #testimonials .testimonials .testimonial-item {
   background: var(--Very-Light-Gray);
-  padding: 2.5rem 1rem;
+  padding: 1.5rem 1rem;
   display: flex;
-  position: relative;
   gap: 2rem;
   flex-direction: column;
   border-radius: 2px;
   font-size: 12px;
+  align-content: center;
+  justify-content: center;
+  place-items: center;
+  align-items: center;
 }
 #testimonials .testimonials .testimonial-item img {
   width: 70px;
-  position: absolute;
-  top: -2.5rem;
-  margin: 0 auto;
 }
 #testimonials .testimonials .testimonial-item h3 {
   padding-top: 1rem;
+  align-self: center;
 }
 #testimonials .testimonials .testimonial-item p {
   text-align: center;
 }
-#testimonials .CTA {
-  padding: 1.8rem;
+
+._CTA {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 600px) {
-  #testimonials {
-    text-align: center;
-    padding: 3rem 0 6rem;
-    display: flex;
-    gap: 4rem;
-    justify-content: space-around;
-    flex-direction: column;
-  }
-  #testimonials .testimonials {
-    display: flex;
-  }
   #testimonials .testimonials .testimonial-item {
     background: var(--Very-Light-Gray);
-    padding: 2.5rem 1rem;
-    display: flex;
-    position: relative;
-    gap: 1rem;
-    flex-direction: column;
-    border-radius: 2px;
-    font-size: 12px;
   }
   #testimonials .testimonials .testimonial-item img {
     width: 70px;
-    position: absolute;
-    top: -2.5rem;
-    left: 40%;
   }
   #testimonials .testimonials .testimonial-item p {
     text-align: center;
