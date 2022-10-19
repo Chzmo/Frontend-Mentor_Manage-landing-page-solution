@@ -54,27 +54,30 @@ Users should be able to:
 Swiper Js Comes handy when dealing with carousel and adding navigation to the links
 
 ```js
-const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-          
-            // If we need pagination
-            pagination: {
-              el: '.swiper-pagination',
+<script>
+    var widthQuery = window.matchMedia("(min-width: 600px)");
+    var swiper = new Swiper(".mySwiper", {
+        
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints:{
+            0:{
+                slidesPerView: 1,
+                paceBetween: 5
             },
-          
-            // Navigation arrows
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
+            600:{
+                slidesPerView: 2,
+                spaceBetween: 5
             },
-          
-            // And if we need scrollbar
-            scrollbar: {
-              el: '.swiper-scrollbar',
+            1200:{
+                slidesPerView: 3,
+                spaceBetween: 20
             },
-          });
+        }
+    });
+    </script>
 ```
 
 ### Continued development
