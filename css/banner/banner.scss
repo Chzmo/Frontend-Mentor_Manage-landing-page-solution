@@ -3,21 +3,17 @@
 
 
 #banner{
-    img{
-        position: relative;
-    }
-    
-    background: var(--Bright-Red);
-    padding: 5rem 0;
-
+    background-image: url('./../../images/bg-simplify-section-desktop.svg');
+    background-color: var(--Bright-Red);
+    background-size: 100% 100%;
+    background-position: 0 0;
     .container{
-        // background: url('../images/bg-simplify-section-desktop.svg');
-        // background-size: cover;
-        // background-repeat: no-repeat;
-        // background-color: transparent;
-        position: absolute;
+        
+        background-size: cover;
+        background-repeat: no-repeat;
         display: flex;
         justify-content: space-between;
+        padding: 5rem;
 
         .banner{
             max-width: 430px;
@@ -40,11 +36,25 @@
 
 // **************** END BANNER SECTION *********************//
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:850px) {
     #banner{
         background: var(--Bright-Red);
-        padding: 3rem 0;
-    
+        background-image: url('./../../images/bg-simplify-section-desktop.svg');
+        background-repeat: no-repeat;
+        background-color: var(--Bright-Red);
+        background-size: 100% 15rem;
+        background-position: -7rem 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #banner{    
+        background: var(--Bright-Red);
+        background-image: url('./../../images/bg-simplify-section-mobile.svg');
+        background-repeat: no-repeat;
+        background-color: var(--Bright-Red);
+        background-size: 7rem 15rem;
+        background-position: 0 2rem ;
         .container{
             display: flex;
             flex-direction: column;
@@ -69,5 +79,4 @@
             }
         }
     }
-
 }
