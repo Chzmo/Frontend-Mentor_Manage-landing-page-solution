@@ -12,7 +12,6 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -82,11 +81,6 @@ Swiper Js Comes handy when dealing with carousel and adding navigation to the li
 ### Continued development
 
 In would like to focus more on Flexbox so that i can reduce code in media queries for responsive layout and working on Mobile-First workflow
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://sass-lang.com) - This is an amazing article which helped me finally understand . I'd recommend it to anyone still learning this concept.
 
 ## Author
 
