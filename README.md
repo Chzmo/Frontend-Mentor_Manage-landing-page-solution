@@ -6,7 +6,7 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#Desktop-Preview)
+  - [Screenshot](#Screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -29,9 +29,9 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
-### Desktop Preview
+### Screenshot
 
-![](./design/desktop-preview.jpg)
+![Screenshot](./images/Screenshot.png)
 
 ### Links
 
