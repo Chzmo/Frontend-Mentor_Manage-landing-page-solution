@@ -89,4 +89,4 @@ In would like to focus more on Flexbox so that i can reduce code in media querie
 
 ## Acknowledgments
 
-Many thanks to Brad, who owns [Traversy Media](https://www.youtube.com/c/TraversyMedia) where i got inspiration the to code this in pure CSS from in his solution in Tailwind.
+Many thanks to Brad, who owns [Traversy Media](https://www.youtube.com/c/TraversyMedia) where i got inspiration to code this in pure CSS from in his solution in Tailwind.
